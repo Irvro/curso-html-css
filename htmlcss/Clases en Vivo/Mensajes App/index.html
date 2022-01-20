@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message</title>
+
+    <style>
+
+.chat {
+    display: flex;
+    border: 10px solid red;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+.chat>* {
+    border: 4px solid green;
+    inline-size: 200px;
+    block-size: 200px;
+    flex-grow: 1;
+
+
+
+} 
+    </style>
+
+</head>
+<body>
+    <div class="chat">
+        <header class="header">
+            receiver
+            <span></span>
+        </header>
+        <div class="messages">
+            <p>This is a paragraph</p>
+    
+        </div>
+        <div class="actions">
+            <p>This is another text</p>
+        </div>
+    </div>
+
+    
+</body>
+</html>

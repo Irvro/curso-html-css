@@ -1,0 +1,15 @@
+.box {
+    padding: 1rem;
+    border: 5px dashed rgb(245, 57, 151);
+    counter-increment: flex-items;
+    color: rgb(255, 255, 255);
+    display: inline-flex;
+}
+
+.box::after {
+    content: counter(flex-items);
+}
+
+body {
+    background-color: rgb(7, 10, 43);
+}
